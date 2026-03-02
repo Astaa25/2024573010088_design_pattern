@@ -1,4 +1,4 @@
-package praktikum_1.Latihan;
+package praktikum_1.latihan;
 
 public class GenapGanjil {
     public static void main(String[] args) {
