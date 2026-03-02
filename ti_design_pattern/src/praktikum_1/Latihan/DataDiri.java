@@ -1,4 +1,4 @@
-package modul_1.Latihan;
+package praktikum_1.Latihan;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

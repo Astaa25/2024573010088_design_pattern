@@ -1,11 +1,14 @@
-package modul_1.Latihan;
+package praktikum_1.Latihan;
 
-public class ForGanjil {
+public class WhileGanjil {
     public static void main(String[] args) {
-        for (int i = 1; i <= 20; i++) {
+        int i= 1;
+
+        while (i <= 20) {
             if (i % 2 == 1) {
                 System.out.print(i + " ");
             }
+            i++;
         }
     }
 }
