@@ -104,9 +104,44 @@ Gunakan tipe data yang tepat untuk setiap variabel. Silahkan cari referensi jika
 
 ### 2.3 Hasil
 Hasil Praktikum :
-![](img_1.png)
+![](img_2.png)
+
+Kode Latihan :
+```declarative
+package praktikum_1.latihan;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class DataDiri {
+    public static void main(String[] args) {
+        String nama = "Abrar Astafaraiz";
+        String tempatLahir = "Langsa";
+        LocalDate TglLahir = LocalDate.of(2006,12,1);
+        String GolonganDarah = "AB";
+        int umur = 20;
+        double tinggi = 1.75;
+        char JenisKelamin = 'L';
+        String Agama = "Islam";
+        String Pekerjaan = "Mahasiswa";
+
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+
+        System.out.println("Nama Lengkap : " + nama);
+        System.out.println("TempatLahir : " + tempatLahir);
+        System.out.println("Tanggal Lahir : " + TglLahir.format(format));
+        System.out.println("Golongan Darah : " + GolonganDarah);
+        System.out.println("Umur: "  + umur);
+        System.out.println("Tinggi Badan: "  + tinggi);
+        System.out.println("JenisKelamin: " + JenisKelamin);
+        System.out.println("Agama : " + Agama);
+        System.out.println("Pekerjaan : " + Pekerjaan);
+
+    }
+}
+```
 Hasil Latihan :
-![](img_1.png)
+![](img_3.png)
 
 ## 3. Operator dan Expressi
 &emsp;&emsp;Operator digunakan untuk melakukan operasi pada variabel dan nilai. Jenis operator:
@@ -139,9 +174,10 @@ Buat program untuk menghitung luas persegi panjang (panjang * lebar)
 
 ### 3.3 Hasil
 Hasil Praktikum :
-![](img_1.png)
+![](img_4.png)
+
 Hasil Latihan :
-![](img_1.png)
+![](img_5.png)
 
 ## 4. Percabangan (If-Else dan Switch-Case)
 Percabangan digunakan untuk mengambil keputusan berdasarkan kondisi.
@@ -194,9 +230,23 @@ Buat program untuk menentukan apakah suatu bilangan genap atau ganjil.
 
 ### 4.3 Hasil
 Hasil Praktikum :
-![](img_1.png)
+![](img_6.png)
+
+Kode Latihan :
+```declarative
+package praktikum_1.latihan;
+
+public class LuasPersegiPanjang {
+    public static void main(String[] args) {
+        int panjang = 10;
+        int lebar = 5;
+
+        System.out.println("Luas Persegi Panjang adalah " + (panjang * lebar));
+    }
+}
+```
 Hasil Latihan :
-![](img_1.png)
+![](img_7.png)
 
 ## 5. Perulangan (For, While, Do-While)
 Perulangan digunakan untuk mengulang blok kode.
@@ -243,9 +293,63 @@ Buat program untuk mencetak bilangan ganjil dari 1 hingga 20. Buat 3 program den
 
 ### 5.3 Hasil Praktikum
 Hasil Praktikum :
-![](img_1.png)
+![](img_8.png)
+
+Kode Latihan :
+```declarative
+package praktikum_1.latihan;
+
+public class ForGanjil {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 20; i++) {
+            if (i % 2 == 1) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
+```
+
+```declarative
+package praktikum_1.latihan;
+
+public class WhileGanjil {
+    public static void main(String[] args) {
+        int i= 1;
+
+        while (i <= 20) {
+            if (i % 2 == 1) {
+                System.out.print(i + " ");
+            }
+            i++;
+        }
+    }
+}
+```
+
+```declarative
+package praktikum_1.latihan;
+
+public class DoWhileGanjil {
+    public static void main(String[] args) {
+        int i= 1;
+
+        do {
+            if (i % 2 == 1) {
+                System.out.print(i + " ");
+            }
+            i++;
+        } while (i <= 20);
+    }
+}
+```
+
 Hasil Latihan :
-![](img_1.png)
+![](img_9.png)
+
+![](img_10.png)
+
+![](img_11.png)
 
 ## 6. Practice Problem dan Solusinya
 Practice Problem:
@@ -295,7 +399,7 @@ public class Segitiga {
     public static void main(String[] args) {
         int tinggi = 5;
         for (int i = 1; i <= tinggi; i++) {
-            for (int j = 1; j <= tinggi; j++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -304,5 +408,13 @@ public class Segitiga {
 }
 ```
 
+### Hasil
+Hasil Praktikum :
+![](img_12.png)
+
+![](img_13.png)
+
+![](img_14.png)
+
 ## Penutup
-&emsp;&emsp;Dengan menyelesaikan modul ini, Anda telah mempelajari dasar-dasar pemrograman Java dan mampu membuat program sederhana. Lanjutkan dengan mempelajari konsep pemrograman yang lebih kompleks seperti array, method, dan pemrograman berorientasi objek
+&emsp;&emsp;Dengan menyelesaikan modul ini, Anda telah mempelajari dasar-dasar pemrograman Java dan mampu membuat program sederhana. Lanjutkan dengan mempelajari konsep pemrograman yang lebih kompleks seperti array, method, dan pemrograman berorientasi objek.
