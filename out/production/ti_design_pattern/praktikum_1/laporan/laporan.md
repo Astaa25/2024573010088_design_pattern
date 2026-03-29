@@ -399,7 +399,7 @@ public class Segitiga {
     public static void main(String[] args) {
         int tinggi = 5;
         for (int i = 1; i <= tinggi; i++) {
-            for (int j = 1; j <= tinggi; j++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
             System.out.println();
@@ -417,4 +417,4 @@ Hasil Praktikum :
 ![](img_14.png)
 
 ## Penutup
-&emsp;&emsp;Dengan menyelesaikan modul ini, Anda telah mempelajari dasar-dasar pemrograman Java dan mampu membuat program sederhana. Lanjutkan dengan mempelajari konsep pemrograman yang lebih kompleks seperti array, method, dan pemrograman berorientasi objek
+&emsp;&emsp;Dengan menyelesaikan modul ini, Anda telah mempelajari dasar-dasar pemrograman Java dan mampu membuat program sederhana. Lanjutkan dengan mempelajari konsep pemrograman yang lebih kompleks seperti array, method, dan pemrograman berorientasi objek.
