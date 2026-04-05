@@ -1019,4 +1019,12 @@ Hasil Latihan :
 ![](img_7.png)
 
 ## Penutup
-&emsp;&emsp;Dengan menyelesaikan modul ini, Anda telah mempelajari dasar-dasar pemrograman Java dan mampu membuat program sederhana. Lanjutkan dengan mempelajari konsep pemrograman yang lebih kompleks seperti array, method, dan pemrograman berorientasi objek.
+&emsp;&emsp;Dalam modul ini, kita telah mempelajari konsep dasar Pemrograman Berorientasi Objek (OOP) menggunakan Java, meliputi:
+* Class dan Object: Blueprint dan instance untuk membangun program.
+* Encapsulation: Menyembunyikan detail implementasi dengan access modifier dan getter-setter.
+* Inheritance: Mewarisi atribut dan metode dari superclass ke subclass.
+* Polymorphism: Method overriding dan overloading untuk fleksibilitas.
+* Abstraction: Abstract class dan interface untuk menyembunyikan detail dan mendefinisikan kontrak.
+* Composition: Membangun class dari objek-objek lain untuk hubungan "has-a".
+
+&emsp;&emsp;Dengan memahami dan menguasai konsep-konsep ini, Anda dapat membangun aplikasi yang modular, fleksibel, dan mudah dipelihara. Teruslah berlatih dan eksplorasi lebih lanjut untuk menjadi programmer Java yang handal.
