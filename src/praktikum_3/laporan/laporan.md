@@ -95,10 +95,10 @@ public class Buku {
 
 ### 1.3 Hasil
 Hasil Praktikum:  
-![](img.png)
+![](gambar/img.png)
 
 hasil Latihan:  
-![](img_1.png)
+![](gambar/img_1.png)
 
 ## 2. Encapsulation (Enkapsulasi)
 &emsp;&emsp;Encapsulation adalah konsep menyembunyikan detail internal objek dan hanya mengekspos fungsionalitas yang diperlukan. Ini dilakukan dengan menggunakan access modifier (private, public, protected) dan getter-setter.
@@ -190,10 +190,10 @@ public class Main {
 
 ### 2.3 Hasil
 Hasil Praktikum :  
-![](img_2.png)
+![](gambar/img_2.png)
 
 Hasil Latihan :  
-![](img_3.png)
+![](gambar/img_3.png)
 
 ## 3. Inheritance (Pewarisan) dan Composition (Komposisi)
 &emsp;&emsp;Dalam pemrograman berorientasi objek (OOP), Inheritance dan Composition adalah dua konsep penting yang digunakan untuk membangun hubungan antara class. Meskipun keduanya memiliki tujuan yang sama, yaitu mempromosikan reuseability (penggunaan kembali kode) dan modularitas, mereka memiliki pendekatan yang berbeda. Berikut adalah penjelasan lengkap tentang Composition dan perbandingannya dengan Inheritance.
@@ -456,14 +456,14 @@ public class Main {
 ### 3.3 Hasil
 Hasil Praktikum :
 1. Pewarisan  
-![](img_4.png)  
+![](gambar/img_4.png)  
 2. Komposisi  
-![](img_5.png)  
+![](gambar/img_5.png)  
 3. Main  
-![](img_6.png)  
+![](gambar/img_6.png)  
 
 Hasil Latihan :  
-![](img_7.png)
+![](gambar/img_7.png)
 
 ## 4. Polymorphism (Polimorfisme)
 &emsp;&emsp;Polymorphism memungkinkan objek untuk memiliki banyak bentuk. Ini dapat dicapai melalui method overriding (mengganti metode di subclass) dan method overloading (beberapa metode dengan nama sama tetapi parameter berbeda).
@@ -678,15 +678,15 @@ public class Main {
 ### 4.3 Hasil
 Hasil Praktikum :
 1. Overriding  
-   ![](img_8.png)
+   ![](gambar/img_8.png)
 2. Overloading  
-   ![](img_9.png)
+   ![](gambar/img_9.png)
 
 Hasil Latihan :
 1. Overriding  
-![](img_10.png)
+![](gambar/img_10.png)
 2. Overloading  
-![](img_11.png)
+![](gambar/img_11.png)
 
 ## 5. Abstraction (Abstraksi) | Abstract Class dan Interface
 &emsp;&emsp;Pada konsep OOP (Object-Oriented Programming), Abstraction adalah salah satu dari empat pilar utama (bersama Encapsulation, Inheritance, dan Polymorphism). Abstraction memungkinkan kita untuk menyembunyikan detail implementasi dan hanya menampilkan fungsionalitas yang diperlukan kepada pengguna. Di Java, abstraction dapat diimplementasikan menggunakan Abstract Class dan Interface.
@@ -940,14 +940,14 @@ public class Main {
 ### 5.3 Hasil
 Hasil Praktikum :
 1. Abstrak  
-   ![](img_12.png)
+   ![](gambar/img_12.png)
 2. Antarmuka  
-   ![](img_13.png)
+   ![](gambar/img_13.png)
 3. Main  
-   ![](img_14.png)
+   ![](gambar/img_14.png)
 
 Hasil Latihan :  
-![](img_15.png)
+![](gambar/img_15.png)
 
 ## 6. Aplikasi Console Pemesanan Tiket Sederhana
 &emsp;&emsp;Berikut adalah contoh aplikasi console pemesanan tiket untuk sebuah konferensi yang mengimplementasikan seluruh konsep OOP (Class, Object, Encapsulation, Inheritance, Polymorphism, dan Abstraction). Aplikasi ini memiliki fitur lengkap seperti:
@@ -1129,9 +1129,9 @@ public class KonferensiApp {
 
 ### 6.2 Hasil
 Hasil Praktikum:  
-![](img_16.png)
-![](img_17.png)
-![](img_18.png)
+![](gambar/img_16.png)
+![](gambar/img_17.png)
+![](gambar/img_18.png)
 
 ## Penutup
 &emsp;&emsp;Dalam modul ini, kita telah mempelajari konsep dasar Pemrograman Berorientasi Objek (OOP) menggunakan Java, meliputi:

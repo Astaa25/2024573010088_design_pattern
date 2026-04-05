@@ -40,7 +40,7 @@ Untuk memulai pemrograman Java, Anda perlu:
 > * Hilangkan centang pada bagian `add sample code`
 
 Contoh:
-![](img.png)
+![](gambar/img.png)
 
 3. Buat sebuah package baru di dalam folder `src` dengan cara klik kanan pada folder `src` kemudian pilih `New -> Package`. Beri nama `modul_1`.
 4. Buat Sebuah class didalam package `modul_1` dengan cara klik kanan dan pilih `New -> Java Class`. Beri nama `HelloWorld`
@@ -58,7 +58,7 @@ public class HelloWorld {
 6. Jalankan program.
 
 ### 1.2 Hasil
-![](img_1.png)
+![](gambar/img_1.png)
 
 ## 2. Variabel dan Tipe Data
 Variabel digunakan untuk menyimpan data dalam program. Setiap variabel memiliki tipe data yang menentukan jenis nilai yang dapat disimpan. Tipe data dasar di Java:
@@ -104,7 +104,7 @@ Gunakan tipe data yang tepat untuk setiap variabel. Silahkan cari referensi jika
 
 ### 2.3 Hasil
 Hasil Praktikum :
-![](img_2.png)
+![](gambar/img_2.png)
 
 Kode Latihan :
 ```declarative
@@ -141,7 +141,7 @@ public class DataDiri {
 }
 ```
 Hasil Latihan :
-![](img_3.png)
+![](gambar/img_3.png)
 
 ## 3. Operator dan Expressi
 &emsp;&emsp;Operator digunakan untuk melakukan operasi pada variabel dan nilai. Jenis operator:
@@ -174,10 +174,10 @@ Buat program untuk menghitung luas persegi panjang (panjang * lebar)
 
 ### 3.3 Hasil
 Hasil Praktikum :
-![](img_4.png)
+![](gambar/img_4.png)
 
 Hasil Latihan :
-![](img_5.png)
+![](gambar/img_5.png)
 
 ## 4. Percabangan (If-Else dan Switch-Case)
 Percabangan digunakan untuk mengambil keputusan berdasarkan kondisi.
@@ -230,7 +230,7 @@ Buat program untuk menentukan apakah suatu bilangan genap atau ganjil.
 
 ### 4.3 Hasil
 Hasil Praktikum :
-![](img_6.png)
+![](gambar/img_6.png)
 
 Kode Latihan :
 ```declarative
@@ -246,7 +246,7 @@ public class LuasPersegiPanjang {
 }
 ```
 Hasil Latihan :
-![](img_7.png)
+![](gambar/img_7.png)
 
 ## 5. Perulangan (For, While, Do-While)
 Perulangan digunakan untuk mengulang blok kode.
@@ -293,7 +293,7 @@ Buat program untuk mencetak bilangan ganjil dari 1 hingga 20. Buat 3 program den
 
 ### 5.3 Hasil Praktikum
 Hasil Praktikum :
-![](img_8.png)
+![](gambar/img_8.png)
 
 Kode Latihan :
 ```declarative
@@ -345,11 +345,11 @@ public class DoWhileGanjil {
 ```
 
 Hasil Latihan :
-![](img_9.png)
+![](gambar/img_9.png)
 
-![](img_10.png)
+![](gambar/img_10.png)
 
-![](img_11.png)
+![](gambar/img_11.png)
 
 ## 6. Practice Problem dan Solusinya
 Practice Problem:
@@ -410,11 +410,11 @@ public class Segitiga {
 
 ### Hasil
 Hasil Praktikum :
-![](img_12.png)
+![](gambar/img_12.png)
 
-![](img_13.png)
+![](gambar/img_13.png)
 
-![](img_14.png)
+![](gambar/img_14.png)
 
 ## Penutup
 &emsp;&emsp;Dengan menyelesaikan modul ini, Anda telah mempelajari dasar-dasar pemrograman Java dan mampu membuat program sederhana. Lanjutkan dengan mempelajari konsep pemrograman yang lebih kompleks seperti array, method, dan pemrograman berorientasi objek.
