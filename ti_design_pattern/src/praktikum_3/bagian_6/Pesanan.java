@@ -31,9 +31,9 @@ public class Pesanan {
 
     public void displayDetail() {
         System.out.println("\nDetail Pesanan:");
-        System.out.println("Nama Pemesan: " + getNamaPemesan());
-        System.out.println("Jenis Tiket: " + getTiket());
-        System.out.println("Jumlah: " + getJumlah());
+        System.out.println("Nama Pemesan: " + namaPemesan);
+        System.out.println("Jenis Tiket: " + tiket.getJenis());
+        System.out.println("Jumlah: " + jumlah);
         System.out.println("Total Harga: Rp." + hitungTotal());
     }
 }

@@ -95,7 +95,7 @@ public class KonferensiApp {
         }
 
         System.out.println("\nDaftar Pesanan:");
-        for (int i = 0; i <= daftarPesanan.size(); i++) {
+        for (int i = 0; i < daftarPesanan.size(); i++) {
             System.out.println((i + 1) + ". " + daftarPesanan.get(i).getNamaPemesan());
         }
         return false;
