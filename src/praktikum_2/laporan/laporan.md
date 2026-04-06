@@ -93,7 +93,7 @@ hasil Latihan:
 2. Method adalah fungsi atau perilaku yang dimiliki oleh class atau object.
 
 ### 2.1 Langkah Praktikum
-1. Buat Sebuah package baru lagi didalam package `modul_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_2`
+1. Buat Sebuah package baru lagi didalam package `praktikum_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_2`
 2. Kemudian buat sebuah class baru dengan nama `Kalkulator` dan isikan kode berikut:
 ```declarative
 package praktikum_2.bagian_2;
@@ -169,7 +169,7 @@ Hasil Latihan :
    * `default` : Hanya dapat diakses dalam package yang sama.  
 
 ### 3.1 Langkah Praktikum
-1. Buat Sebuah package baru lagi didalam package `modul_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_3`
+1. Buat Sebuah package baru lagi didalam package `praktikum_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_3`
 2. Kemudian buat sebuah class baru dengan nama `AksesModifier` dan isikan kode berikut:
 ```declarative
 package praktikum_2.bagian_3;
@@ -236,7 +236,7 @@ Hasil Latihan :
 3. Setter dan Getter digunakan untuk mengakses atribut yang memiliki akses modifier private.
 
 ### 4.1 Langkah Praktikum
-1. Buat Sebuah package baru lagi didalam package `modul_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_4`
+1. Buat Sebuah package baru lagi didalam package `praktikum_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_4`
 2. Kemudian buat sebuah class baru dengan nama `Mobil` dan isikan kode berikut:
 ```declarative
 package praktikum_2.bagian_4;
@@ -331,7 +331,7 @@ Hasil Latihan:
    `Constructor Overloading` : Beberapa constructor dengan parameter berbeda.
 
 ### 5.1 Langkah Praktikum
-1. Buat Sebuah package baru lagi didalam package `modul_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_5`
+1. Buat Sebuah package baru lagi didalam package `praktikum_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_5`
 2. Kemudian buat sebuah class baru dengan nama `Person` dan isikan kode berikut:
 ```declarative
 package praktikum_2.bagian_5;
@@ -444,7 +444,7 @@ Hasil Latihan :
     - Mengimplementasikan semua fitur yang telah dibuat di class Buku dan Perpustakaan.
 
 ### 6.1 Langkah Praktikum
-1. Buat Sebuah package baru lagi didalam package `modul_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_6`
+1. Buat Sebuah package baru lagi didalam package `praktikum_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_6`
 2. Kemudian buat sebuah class baru dengan nama `Buku` dan isikan kode berikut:
 ```declarative
 package praktikum_2.bagian_6;
