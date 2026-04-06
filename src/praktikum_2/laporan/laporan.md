@@ -606,5 +606,7 @@ Hasil Praktikum:
 ![](gambar/img_10.png)
 ![](gambar/img_11.png)
 
+---
+
 ## Penutup
 &emsp;&emsp;Modul ini telah membahas konsep dasar OOP dalam Java, termasuk class, object, attribute, method, akses modifier, setter-getter, dan constructor. Dengan memahami materi ini, Anda dapat mulai membangun aplikasi Java yang lebih kompleks menggunakan prinsip-prinsip OOP.
