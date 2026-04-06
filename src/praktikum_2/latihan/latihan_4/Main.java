@@ -6,7 +6,7 @@ public class Main {
 
         // menggunakan setter
         mhs.setNama("Abrar Astafaraiz");
-        mhs.setNim("23012345");
+        mhs.setNim("2024573010088");
 
         // menampilkan dengan getter
         System.out.println("Nama: " + mhs.getNama());

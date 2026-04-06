@@ -428,21 +428,6 @@ Hasil Latihan :
 ## 6. Sistem Manajemen Perpustakaan Sederhana
 &emsp;&emsp;Berikut adalah contoh program konsol sederhana yang mengimplementasikan seluruh konsep yang telah dibahas sebelumnya, yaitu class, object, attribute, method, akses modifier, setter-getter, dan constructor. Program ini adalah sistem manajemen perpustakaan sederhana yang memungkinkan pengguna untuk menambahkan buku, menampilkan daftar buku, dan mencari buku berdasarkan judul.
 
-1. Class Buku:
-    - Memiliki atribut judul, pengarang, dan tahunTerbit (semua private).
-    - Menggunakan constructor (default dan parameterized) untuk inisialisasi objek.
-    - Menggunakan setter dan getter untuk mengakses dan memodifikasi atribut.
-    - Memiliki method tampilkanInfo() untuk menampilkan informasi buku.
-
-2. Class Perpustakaan:
-    - Menggunakan ArrayList untuk menyimpan daftar buku.
-    - Memiliki method tambahBuku(), tampilkanSemuaBuku(), dan cariBuku() untuk mengelola buku.
-
-3. Class Main:
-    - Menyediakan menu interaktif untuk pengguna.
-    - Menggunakan Scanner untuk menerima input dari pengguna.
-    - Mengimplementasikan semua fitur yang telah dibuat di class Buku dan Perpustakaan.
-
 ### 6.1 Langkah Praktikum
 1. Buat Sebuah package baru lagi didalam package `modul_2` dengan cara klik kanan dan pilih `New -> Package`. Beri nama `bagian_6`
 2. Kemudian buat sebuah class baru dengan nama `Buku` dan isikan kode berikut:
@@ -604,7 +589,14 @@ public class Main {
 ### 6.2 Hasil
 Hasil Praktikum:  
 ![](gambar/img_10.png)
-![](gambar/img_11.png)
 
 ## Penutup
-&emsp;&emsp;Modul ini telah membahas konsep dasar OOP dalam Java, termasuk class, object, attribute, method, akses modifier, setter-getter, dan constructor. Dengan memahami materi ini, Anda dapat mulai membangun aplikasi Java yang lebih kompleks menggunakan prinsip-prinsip OOP.
+&emsp;&emsp;Dalam modul ini, kita telah mempelajari konsep dasar Pemrograman Berorientasi Objek (OOP) menggunakan Java, meliputi:
+* Class dan Object: Blueprint dan instance untuk membangun program.
+* Encapsulation: Menyembunyikan detail implementasi dengan access modifier dan getter-setter.
+* Inheritance: Mewarisi atribut dan metode dari superclass ke subclass.
+* Polymorphism: Method overriding dan overloading untuk fleksibilitas.
+* Abstraction: Abstract class dan interface untuk menyembunyikan detail dan mendefinisikan kontrak.
+* Composition: Membangun class dari objek-objek lain untuk hubungan "has-a".
+
+&emsp;&emsp;Dengan memahami dan menguasai konsep-konsep ini, Anda dapat membangun aplikasi yang modular, fleksibel, dan mudah dipelihara. Teruslah berlatih dan eksplorasi lebih lanjut untuk menjadi programmer Java yang handal.

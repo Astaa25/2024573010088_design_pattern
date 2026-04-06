@@ -10,10 +10,10 @@ public class Main {
 
         do {
             System.out.println("\n=== Sistem Manajemen Perpustakaan ===");
-            System.out.println("1. Perpustakaan");
-            System.out.println("2. Perpustakaan");
-            System.out.println("3. Perpustakaan");
-            System.out.println("4. Perpustakaan");
+            System.out.println("1. Tambah Buku");
+            System.out.println("2. Tampilkan Semua Buku");
+            System.out.println("3. Cari Buku");
+            System.out.println("4. Keluar");
             System.out.print("Pilih Menu: ");
             pilihan = scanner.nextInt();
             scanner.nextLine();
